@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COCGenerator.Private.Web", "COCGenerator.Private.Web\COCGenerator.Private.Web.csproj", "{34E286BD-9911-41B2-BD1A-79C6104FC081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COCGenerator.Public.Web", "COCGenerator.Public.Web\COCGenerator.Public.Web.csproj", "{A4BD32CA-0B25-4178-80B8-404A3257C375}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "COCGenerator.DB", "COCGenerator.DB\COCGenerator.DB.sqlproj", "{4DB21077-7040-4246-90A7-FCD5A2BFA593}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{DD2EDD95-0E69-4E18-9C24-E65B082E9365}"
+	ProjectSection(SolutionItems) = preProject
+		bin\AjaxControlToolkit.dll = bin\AjaxControlToolkit.dll
+		bin\itextsharp.dll = bin\itextsharp.dll
+		bin\PDFThumbnail.dll = bin\PDFThumbnail.dll
+		bin\Utilities.dll = bin\Utilities.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34E286BD-9911-41B2-BD1A-79C6104FC081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E286BD-9911-41B2-BD1A-79C6104FC081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E286BD-9911-41B2-BD1A-79C6104FC081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E286BD-9911-41B2-BD1A-79C6104FC081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4BD32CA-0B25-4178-80B8-404A3257C375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BD32CA-0B25-4178-80B8-404A3257C375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BD32CA-0B25-4178-80B8-404A3257C375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4BD32CA-0B25-4178-80B8-404A3257C375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB21077-7040-4246-90A7-FCD5A2BFA593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB21077-7040-4246-90A7-FCD5A2BFA593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB21077-7040-4246-90A7-FCD5A2BFA593}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4DB21077-7040-4246-90A7-FCD5A2BFA593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB21077-7040-4246-90A7-FCD5A2BFA593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB21077-7040-4246-90A7-FCD5A2BFA593}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://oamps.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = COCGenerator.DB\\COCGenerator.DB.sqlproj
+		SccProjectName1 = COCGenerator.DB
+		SccLocalPath1 = COCGenerator.DB
+		SccProjectUniqueName2 = COCGenerator.Private.Web\\COCGenerator.Private.Web.csproj
+		SccProjectName2 = COCGenerator.Private.Web
+		SccLocalPath2 = COCGenerator.Private.Web
+		SccProjectUniqueName3 = COCGenerator.Public.Web\\COCGenerator.Public.Web.csproj
+		SccProjectName3 = COCGenerator.Public.Web
+		SccLocalPath3 = COCGenerator.Public.Web
+	EndGlobalSection
+EndGlobal

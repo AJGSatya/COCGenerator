@@ -1,0 +1,81 @@
+﻿/* SHARED */
+.multiline
+{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt;
+}
+
+.hline
+{
+	color: #6398cc;
+	background-color: #6398cc;
+	height: 1px;
+}
+
+.note
+{
+	color: #999999;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+.panel-full
+{
+	float: left;
+	clear: both;
+	width: 97%;
+	border: none 1px #003c79;
+	padding: 10px;
+	margin: 5px 0 5px 0;
+}
+
+.panel-left
+{
+	float: left;
+	clear: left;
+	width: 460px;
+	border: none 1px #003c79;
+	padding: 10px;
+	margin: 5px 0 5px 0;
+	overflow: hidden;
+}
+
+.panel-right
+{
+	float: left;
+	clear: right;
+	width: 340px;
+	border: none 1px #003c79;
+	padding: 10px;
+	margin: 5px 0 5px 0;
+	overflow: hidden;
+}
+
+/* VALIDATION */
+.validation-err
+{
+	border: solid 1px red;
+	color: red;
+}
+
+.validation-warn
+{
+	border: solid 1px orange;
+	color: orange;
+}
+
+/* ERROR PAGE */
+.error-text
+{
+	color: Red;
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.advanced-error-text
+{
+	color: #D25D00;
+	font-family: Verdana;
+	font-size: 8pt;
+}

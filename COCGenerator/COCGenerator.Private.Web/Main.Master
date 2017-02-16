@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="COCGenerator.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta id="MetaDescription" name="DESCRIPTION" content="Arthur J. Gallagher & Co (Aus) Limited works to understand the needs and provide solutions to all shapes and sizes of businesses. We get closer to clients and closer to communities.  Contact your local broker today." />
+    <meta id="MetaKeywords" name="KEYWORDS" content="insurance, brokers, business insurance, finance, superannuation, australia, agriculture, mining, hopitality, sport, aviation, marine, Insurance, Broker, Broking, Business, Liability, Risk, Commercial, Finance, Wesfarmers, Quote, Clients, Communities" />
+    <meta id="MetaCopyright" name="COPYRIGHT" content="© Copyright Arthur J. Gallagher & Co (Aus) Limited 2014" />
+    <meta id="MetaAuthor" name="AUTHOR" content="AJG Insurance Brokers" />
+    <meta name="RESOURCE-TYPE" content="DOCUMENT" />
+    <meta name="DISTRIBUTION" content="GLOBAL" />
+    <meta name="ROBOTS" content="INDEX, FOLLOW" />
+    <meta name="REVISIT-AFTER" content="1 DAYS" />
+    <meta name="RATING" content="GENERAL" />
+    <meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" />
+    <style id="StylePlaceholder" type="text/css">
+        </style>
+    <link runat="server" rel="stylesheet" type="text/css" href="~/Content/default.css" />
+    <link runat="server" rel="stylesheet" type="text/css" href="~/Content/skin.css" />
+    <link runat="server" rel="stylesheet" type="text/css" href="~/Content/home.css" />
+    <link runat="server" rel="stylesheet" type="text/css" href="~/Content/sub.css" />
+    <link runat="server" rel="stylesheet" type="text/css" href="~/Content/container.css" />
+    <link runat="server" rel="stylesheet" type="text/css" href="~/Content/Menu.css" />
+    <link runat="server" rel="stylesheet" type="text/css" href="~/Content/Shared.css" />
+    <link runat="server" rel="SHORTCUT ICON" href="~/Content/media/favicon.png" />
+    <title>Arthur J. Gallagher & Co (Aus) Limited - Certificate</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table width="843" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+   
+            <td class="logomiddle-uppercase">
+                Certificate of Currency Generator</td>
+            <td class="logoright">
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <table class="skinmaster" border="0" align="center" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td valign="top" width="843">
+                            <div>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    <!-- CONTENT GOES HERE -->
+                                &nbsp;
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+		<td colspan="3" align="left">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">		
+            <tr>
+                <td class="footsl">
+                    &nbsp;
+                </td>
+                <td align="left" valign="top" class="footst">
+                    <span class="UserHolder">
+                        <a href="http://ajg.com.au/terms-and-conditions" class="User">Terms and Conditions</a> |&nbsp;
+                        <a href="http://ajg.com.au/privacy-policy" class="User">Privacy Policy</a> 
+                    </span>
+                </td>
+                <td class="footsr">
+                    &nbsp;
+                </td>
+            </tr>
+		</table>
+		</td>
+	</tr>
+        <tr>
+            <td colspan="3" align="center" style="margin:0;padding:0">
+                <span class="disclaimer">&copy 2014 Copyright Arthur J. Gallagher & Co (Aus) Limited, 289 Wellington Parade South, East Melbourne
+                    Victoria 3002, A.B.N. 34 005 543 920. Any advice does not take into account your personal needs and
+                    financial circumstances and you should consider whether it is appropriate for you.</span> 
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

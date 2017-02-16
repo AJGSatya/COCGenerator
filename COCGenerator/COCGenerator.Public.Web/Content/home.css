@@ -1,0 +1,41 @@
+.latestHolder { background-image: url('media/latestnews.gif'); 
+width: 184px; height: 189px; background-repeat: no-repeat; padding:17px 13px 0 18px; }
+.associationsHolder { background-image: url('media/associations.gif'); 
+width: 200px; height: 267px; background-repeat: no-repeat; padding: 10px 3px 0 10px; }
+.insuranceHolder { background-image: url('media/insurance.gif'); 
+width: 628px; height: 267px; background-repeat: no-repeat; }
+
+.slogan { width: 843px; height: 58px; color:#679a9a; font-size: 11px; vertical-align: middle; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; line-height: 16px; padding: 0 0 0 5px; }
+
+.headertext { font-family: Arial, Helvetica, sans-serif; font-size:16pt; color: #FFFFFF; padding-left: 120px; padding-right: 30px }
+.headerAsso { font-family: Arial, Helvetica, sans-serif; font-size:16pt; color: #FFFFFF; padding-left: 10px; }
+
+.insureTop { background-image: url('media/insureTop.gif'); 
+background-repeat: no-repeat; width: 628px; height: 61px; padding-top: 12px; }
+.insureBottom { background-image: url('media/insureBottom.gif'); 
+background-repeat: no-repeat; width: 628px; height: 12px; }
+.insureLeft { background-image: url('media/insureLeft.gif'); 
+background-repeat: no-repeat; width:305px; height: 194px; padding-right: 3px; padding-left: 3px; }
+.insureRight { background-image: url('media/insureRight.gif'); 
+background-repeat: no-repeat; width: 304px; height: 194px; padding-right: 10px; padding-left: 3px; }
+
+/* Content Panes */
+.insurelpane { background-color: transparent; padding-left: 0px; padding-right: 0px; margin-right: 0px; padding-top: 0px; padding-bottom:0px; vertical-align:top; }
+.contentpanehome { background-color: transparent; padding-left: 0px; margin-right: 0px; padding-top: 0px; padding-bottom:0px; vertical-align:top; }
+.associationspane { width: 190px; background-color: transparent; /*margin-left: 5px; padding-right: 5px;*/ padding-top:20px; padding-left: 0px; vertical-align:top; }
+
+.midleft { /*background-image:url(media/midleft.gif);*/ width:311px; height: 189px;/* background-repeat: no-repeat; */ }
+.panemidleft {  }
+.midright { /*background-image:url(media/midright.gif);*/ width:317px; height: 189px; /*background-repeat: no-repeat;*/ }
+.panemidright {  }
+
+.footerl { background-image:url('media/footerl.gif'); 
+width: 10px; height: 30px; background-repeat: no-repeat; }
+.footert { background-image:url('media/footert.gif'); 
+height: 52px; background-repeat: repeat-x; padding-top: 18px; }
+.footerr { background-image:url('media/footerr.gif'); 
+width: 10px; height: 30px; background-repeat: no-repeat; }
+
+
+
+

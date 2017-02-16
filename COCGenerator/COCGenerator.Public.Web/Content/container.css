@@ -1,0 +1,46 @@
+* div {/*display: inline-block;*/}
+.wrapper{ margin: 0;padding: 0; /*width: 210px;*/ }
+.conTitle { text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 12pt; }
+.latestTitle { text-align: left; font-family: Arial, Helvetica, sans-serif; color: #6e8d82; font-style: italic; font-size: 12pt; }
+
+div.con{ padding: 0 0 0 0; width: 100%; color:#003C7A; /*#8c8c8c;*/ line-height: 18px; }
+div.conWhite { padding: 0 0 0 0; width: 100%; color: #ffffff; }
+div.conlatest{ padding: 10px 0 0 0; width: 100%; }
+div.conFooter {float: right; padding:0; white-space: nowrap; }
+.clear {clear: both;height:1px;overflow:hidden;}
+
+.sidemenutop { background-image: url('media/sidemtop.gif'); 
+background-repeat: no-repeat; height:36px; width:210px; }
+.sidemenubottom { background-image: url('media/sidembottom.gif'); 
+background-repeat: no-repeat; height:18px; width:210px; }
+.considemenu {border-left:2px solid #d8d8d8; border-right:2px solid #c5c5c5; border-top:0px solid #c5c5c5; border-bottom:0px solid #c5c5c5; background-image: url('media/sidemr.gif'); 
+background-repeat: no-repeat; background-position: 50% bottom;
+}
+
+.contactsidemenubottom { background-image: url('media/considembottom.gif'); 
+background-repeat: no-repeat; height:18px; width:210px; }
+.contactconsidemenu {border-left:2px solid #d8d8d8; border-right:2px solid #c5c5c5; border-top:0px solid #c5c5c5; border-bottom:0px solid #c5c5c5; background-image: url('media/considemr.gif'); 
+background-repeat: no-repeat; background-position: 50% bottom;
+}
+
+.orangetitle { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; color: #ffffff; text-align: left; padding-left: 14px; }
+.orangetop { background: url('media/orangetop.gif') no-repeat; 
+height:30px; width:215px; padding-top: 11px;  }
+.orangebottom { background: url('media/orangebottom.gif') no-repeat; 
+height:18px; width:215px; padding-bottom: 18px; }
+.conorange { background: url('media/orangem.gif') no-repeat 50% top; /*height:84px;*/ 
+padding:10px 14px 0 14px; }
+.conOrangeRpt { background: #cc6701 url('media/orangemr.gif') no-repeat; 
+padding: 0 0 0 0; width: 100%; color: #ffffff; }
+
+.greensubtitle { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; color: #ffffff; text-align: left; padding-left: 14px; }
+.greensubt { background-image: url('media/greensubtop.gif'); 
+background-repeat: no-repeat; height:30px; width:210px; padding-top: 11px; }
+.greensubb { background-image: url('media/greensubbottom.gif'); 
+background-repeat: no-repeat; width:210px; height: 14px; }
+.congreensub { background-image: url('media/greensubm.gif'); 
+background-repeat: no-repeat; background-position: 50% bottom;
+}
+.congreensubr { background-image: url('media/greensubmr.gif'); 
+background-repeat: repeat-y; }
+.conGreen { padding-left: 14px; padding-right: 14px; padding-top: 10px; }

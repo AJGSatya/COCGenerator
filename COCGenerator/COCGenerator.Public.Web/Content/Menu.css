@@ -1,0 +1,58 @@
+﻿.menustyle
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: White;
+	/*line-height:16px;*/
+}
+
+.menystyle:after
+{ 
+	/*Add margin between menu and rest of content in Firefox*/
+	content: "."; 
+	display: block; 
+	height: 0;
+	clear: both; 
+	visibility: hidden;
+}
+
+.menuitemstyle 
+{
+	padding: 0 20px 0 14px;
+	margin: 0;
+	background-color: transparent;
+	background: transparent; 
+	border: 0px solid #bebebe;
+	white-space: nowrap;
+	text-decoration: none;
+	text-align: left;
+	display: inline;
+	vertical-align: middle;
+}
+
+.menuitemstyle a
+{
+	color: White;
+	background-image: none;
+}
+
+.menuitemstyle a:visited
+{
+	color: #ffffff;
+} 
+
+.menuitemstyle a:hover
+{
+	color: #cccccc;
+	text-decoration: none;
+}
+
+.menuitemselectedstyle
+{
+	margin: -2px 0 0 0;
+	background-image: url('media/menubgsel.gif'); 
+	background-repeat: repeat-x; 
+	height: 24px;
+}

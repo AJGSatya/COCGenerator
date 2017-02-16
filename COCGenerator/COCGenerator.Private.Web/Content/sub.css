@@ -1,0 +1,44 @@
+.breadbg { background-image: url('media/breadbg.gif'); background-repeat: no-repeat; background-position: 50% center; width: 840px; height: 40px; padding-top: 7px; padding-left: 5px; }
+.breadcrumb { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; color: #ffffff; }
+a.breadcrumb:link { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; color: #ffffff; }
+a.breadcrumb:active { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; color: #ffffff; }
+a.breadcrumb:visited { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; color: #ffffff; }
+a.breadcrumb:selected { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; color: #ffffff; }
+a.breadcrumb:hover { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; color: #ffffff; text-decoration: none; }
+
+/* Solpart Menu CSS Code */
+#FooterMenu{font-weight: bold;font-size: 90%;/*line-height:16px;*/}
+#FooterMenu:after{ /*Add margin between menu and rest of content in Firefox*/content: "."; display: block; height: 0;clear: both; visibility: hidden;}
+#FooterMenu ul li {/*text-indent: 10px;*/ padding: 5px 0 0 0 ;margin: 0;background-color: transparent;   border: 0px solid #bebebe;text-align: left; /*set value to "center" for example to center items*/ }
+#FooterMenu ul li{display: inline;}
+#FooterMenu ul li a{color: #ffffff; padding: 0 24px 0 24px; margin: 0;text-decoration: none;background: transparent; text-align: center; white-space: nowrap; font-size: 11px; font-family: Arial, Helvetica, sans-serif; }
+#FooterMenu ul li a:visited{color: #ffffff;} 
+#FooterMenu ul li a:hover {color: #eeeeee;}
+
+/* CSS code for Inventua Side Menu */
+#invsidemenu-Downloads A { border: red 1px dotted; color: red!important; font-weight: bold; } 
+#invsidemenu-Downloads A:hover, #invsidemenu-Downloads A:active { border: #1A76D3 1px solid; color: white!important; font-weight: bold; } 
+.MenuItem HR { /*border-top: none; border-left: none; border-right: none; border-bottom: 1px solid #999999;*/ } 
+.MenuItem, .MenuItem A, .MenuItem A:Active, .MenuItem A:Visited, .MenuItem A:Link { display:block; text-decoration:none; padding:1px 0 2px 8px; color:#828282; text-align:left; border:0px solid #f1f1f1; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; } 
+.MenuItemMouseOver A, .MenuItemMouseOver A:Active, .MenuItemMouseOver A:Hover, .MenuItemMouseOver A:Visited, .MenuItemMouseOver A:Link { display:block; text-decoration:none; text-align:left; background-color: #003c7a; border:0px solid #3b3b3b; color:#FFFFFF;  font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; }
+.MenuHdr { display:block; text-decoration:none; color:#828282; text-align:left; border:0px solid #f1f1f1; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; } 
+.MenuHdr A:Hover, .MenuItemMouseOver { display:block; text-decoration:none; text-align:left; background-color: #003c7a; border:0px solid #3b3b3b; color:#FFFFFF; background-image: url('media/cmenul.gif'); 
+background-position: left; background-repeat: no-repeat; padding-left:15px; padding-right:0px; padding-top:3px; padding-bottom:3px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; } 
+.MenuHdr A, .MenuHdr A:Active, .MenuHdr A:Visited, .MenuHdr A:Link { display:block; text-decoration:none; padding-left:15px; padding-right:0px; padding-top:3px; padding-bottom:3px; color:#828282; text-align:left; border:0px solid #f1f1f1; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 8pt; } 
+
+.footsl { background:url('media/footsl.gif') no-repeat; 
+width: 10px; height: 44px; }
+.footst { background:url('media/footst.gif') repeat-x; 
+height: 44px; padding-top: 12px; }
+.footsr { background:url('media/footsr.gif') no-repeat; 
+width: 10px; height: 44px; }
+
+.footsml { background:url('media/footsml.gif') no-repeat; 
+width: 10px; height: 22px; }
+.footsmt { background:url('media/footsmt.gif') repeat-x; 
+height: 22px; }
+.footsmr { background:url('media/footsmr.gif') no-repeat; 
+width: 10px; height: 22px; }
+
+
+
